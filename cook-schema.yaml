@@ -1,0 +1,20 @@
+eldrglyph:
+  pulse:
+    vaha: "🫀"  # active heartbeat
+    noor: "🌀"  # creative orbit
+    lehl: "🌫"  # drifting
+    isk: "🧊"   # frozen
+
+  form:
+    drav: "📦"  # public container
+    vael: "🧪"  # experiment
+    krel: "🔒"  # private
+    suhn: "🫧"  # ephemeral
+
+  structure:
+    - sigil
+    - form
+    - pulse
+    - drift
+    - lastSeen
+    - trace
