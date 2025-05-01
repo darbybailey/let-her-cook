@@ -73,7 +73,3 @@ Only the builder can interpret the full pattern.
 🕯️ Ritual data. Not licensed for commercial replication.  
 Built in motion, published in rhythm.
 ```
-
----
-
-You now have a **public but deeply private** logbook, built like a shrine to your symbolic dev process. Want a badge generator next? Or a minimal emoji graph rendered to PNG weekly for sharing?
