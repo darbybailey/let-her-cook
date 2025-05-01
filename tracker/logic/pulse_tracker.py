@@ -77,6 +77,25 @@ for repo in fetch_repos():
         )
         entries.append(entry)
 
+# Filter repos by last push time (within last 24h)
+entries = []
+now = datetime.now(timezone.utc)
+
+for repo in fetch_repos():
+    last_push = repo["pushed_at"]
+    dt = datetime.strptime(last_push, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+    
+    if (now - dt).total_seconds() < 86400:  # 24 hours = 86400 seconds
+        entry = build_glyph_entry(
+            name=repo["name"],
+            url=repo["html_url"],
+            last_push=last_push,
+            private=repo["private"],
+            experiment=True  # or False depending on your mask strategy
+        )
+        entries.append(entry)
+
+append_log(entries)
 
     append_log(entries)
     print(f"✅ Logged {len(entries)} repos.")
