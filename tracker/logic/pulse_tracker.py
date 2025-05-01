@@ -3,6 +3,7 @@ import base64
 import json
 from datetime import datetime, timezone
 import os
+from tracker.logic.glyph_encoder import build_glyph_entry
 
 # === CONFIG ===
 GITHUB_TOKEN = os.environ["LHC_TOKEN"]
@@ -14,23 +15,6 @@ HEADERS = {
     "Accept": "application/vnd.github.v3+json"
 }
 
-# === SYMBOLIC RULES ===
-def get_pulse(last_push):
-    now = datetime.now(timezone.utc)
-    delta = now - datetime.strptime(last_push, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-    if delta.days < 1:
-        return "🫀"
-    elif delta.days < 7:
-        return "🌀"
-    elif delta.days < 30:
-        return "🌫"
-    else:
-        return "🧊"
-
-def get_kind(is_private):
-    return "🔒" if is_private else "📦"
-
-# === FETCH ALL USER REPOS ===
 def fetch_repos():
     repos = []
     page = 1
@@ -46,7 +30,6 @@ def fetch_repos():
         page += 1
     return repos
 
-# === APPEND TO LOG ===
 def append_log(entries):
     if os.path.exists(LOG_FILE):
         with open(LOG_FILE, "r") as f:
@@ -62,22 +45,21 @@ def append_log(entries):
     with open(LOG_FILE, "w") as f:
         json.dump(existing, f, indent=2)
 
-# === MAIN ===
 def main():
     print("🔍 Scanning repos...")
     entries = []
     for repo in fetch_repos():
-        entry = {
-            "sigil": repo["name"].replace("-", "_"),
-            "pulse": get_pulse(repo["pushed_at"]),
-            "kind": get_kind(repo["private"]),
-            "lastSeen": repo["pushed_at"],
-            "ref": repo["html_url"]
-        }
+        entry = build_glyph_entry(
+            name=repo["name"],
+            url=repo["html_url"],
+            last_push=repo["pushed_at"],
+            private=repo["private"],
+            experiment=False  # set True later if needed
+        )
         entries.append(entry)
 
     append_log(entries)
-    print(f"✅ Logged {len(entries)} repo snapshots.")
+    print(f"✅ Logged {len(entries)} repos.")
 
 if __name__ == "__main__":
     main()
