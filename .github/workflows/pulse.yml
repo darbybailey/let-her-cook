@@ -2,14 +2,14 @@ name: Let Her Cook — Pulse Tracker
 
 on:
   schedule:
-    - cron: '0 4 * * *'  # Runs daily at 4:00 UTC
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 jobs:
   pulse:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Set up Python
@@ -17,19 +17,19 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Install dependencies
+      - name: Install deps
         run: pip install requests
 
       - name: Run pulse tracker
         env:
           LHC_TOKEN: ${{ secrets.LHC_TOKEN }}
           LHC_USERNAME: ${{ secrets.LHC_USERNAME }}
-        run: python pulse_tracker.py
+        run: python tracker/logic/pulse_tracker.py
 
-      - name: Commit pulse log
+      - name: Commit update
         run: |
           git config --global user.name "lhc-bot"
           git config --global user.email "lhc@users.noreply.github.com"
           git add cook-log.json
-          git commit -m "🔁 Nightly pulse"
+          git commit -m "🔁 EldrPulse update"
           git push
