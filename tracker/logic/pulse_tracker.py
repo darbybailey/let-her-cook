@@ -1,11 +1,10 @@
 import requests
-import base64
 import json
 from datetime import datetime, timezone
 import os
-from glyph_encoder import build_glyph_entry
 
-# === CONFIG ===
+from tracker.logic.glyph_encoder import build_glyph_entry
+
 GITHUB_TOKEN = os.environ["LHC_TOKEN"]
 USERNAME = os.environ["LHC_USERNAME"]
 LOG_FILE = "cook-log.json"
@@ -19,86 +18,53 @@ def fetch_repos():
     repos = []
     page = 1
     while True:
-        r = requests.get(f"https://api.github.com/user/repos?per_page=100&page={page}", headers=HEADERS)
-        if r.status_code != 200:
-            print("⚠️ Error fetching repos:", r.text)
+        url = f"https://api.github.com/users/{USERNAME}/repos?page={page}&per_page=100&type=all&sort=pushed"
+        res = requests.get(url, headers=HEADERS)
+        if res.status_code != 200 or not res.json():
             break
-        data = r.json()
-        if not data:
-            break
-        repos.extend(data)
+        repos += res.json()
         page += 1
     return repos
 
 def append_log(entries):
+    run_data = {
+        "run": datetime.now(timezone.utc).isoformat(),
+        "entries": entries
+    }
+
     if os.path.exists(LOG_FILE):
         with open(LOG_FILE, "r") as f:
-            existing = json.load(f)
+            log = json.load(f)
     else:
-        existing = []
+        log = []
 
-    existing.append({
-        "run": datetime.utcnow().isoformat() + "Z",
-        "entries": entries
-    })
+    log.append(run_data)
 
     with open(LOG_FILE, "w") as f:
-        json.dump(existing, f, indent=2)
+        json.dump(log, f, indent=2)
 
 def main():
+    now = datetime.now(timezone.utc)
+    entries = []
+
     print("🔍 Scanning repos...")
-    entries = []
-for repo in fetch_repos():
-    last_push = repo["pushed_at"]
-    dt = datetime.strptime(last_push, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-    if (datetime.now(timezone.utc) - dt).days < 1:
-        entry = build_glyph_entry(
-            name=repo["name"],
-            url=repo["html_url"],
-            last_push=last_push,
-            private=repo["private"],
-            experiment=False
-        )
-        entries.append(entry)
 
-    entries = []
+    for repo in fetch_repos():
+        last_push = repo["pushed_at"]
+        dt = datetime.strptime(last_push, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
 
-for repo in fetch_repos():
-    last_push = repo["pushed_at"]
-    dt = datetime.strptime(last_push, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+        if (now - dt).total_seconds() < 86400:  # 24 hours
+            entry = build_glyph_entry(
+                name=repo["name"],
+                url=repo["html_url"],
+                last_push=last_push,
+                private=repo["private"],
+                experiment=True
+            )
+            entries.append(entry)
 
-    if (datetime.now(timezone.utc) - dt).days < 1:
-        entry = build_glyph_entry(
-            name=repo["name"],
-            url=repo["html_url"],
-            last_push=last_push,
-            private=repo["private"],
-            experiment=False
-        )
-        entries.append(entry)
-
-# Filter repos by last push time (within last 24h)
-entries = []
-now = datetime.now(timezone.utc)
-
-for repo in fetch_repos():
-    last_push = repo["pushed_at"]
-    dt = datetime.strptime(last_push, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-    
-    if (now - dt).total_seconds() < 86400:  # 24 hours = 86400 seconds
-        entry = build_glyph_entry(
-            name=repo["name"],
-            url=repo["html_url"],
-            last_push=last_push,
-            private=repo["private"],
-            experiment=True  # or False depending on your mask strategy
-        )
-        entries.append(entry)
-
-append_log(entries)
-
-    append_log(entries)
     print(f"✅ Logged {len(entries)} repos.")
+    append_log(entries)
 
 if __name__ == "__main__":
     main()
