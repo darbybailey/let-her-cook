@@ -3,7 +3,7 @@ import base64
 import json
 from datetime import datetime, timezone
 import os
-from tracker.logic.glyph_encoder import build_glyph_entry
+from glyph_encoder import build_glyph_entry
 
 # === CONFIG ===
 GITHUB_TOKEN = os.environ["LHC_TOKEN"]
