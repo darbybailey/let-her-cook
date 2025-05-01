@@ -488,5 +488,1216 @@
         "trace": "https://github.com/Utah-DS-Analytics/PHS-7020-Spring-2021"
       }
     ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.534852Z",
+    "entries": []
+  },
+  {
+    "run": "2025-05-01T04:46:31.535692Z",
+    "entries": []
+  },
+  {
+    "run": "2025-05-01T04:46:31.536567Z",
+    "entries": []
+  },
+  {
+    "run": "2025-05-01T04:46:31.537527Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.538312Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.539121Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.540136Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.541125Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.542017Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.542994Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.544196Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.545310Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.546361Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.547596Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.548795Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.550089Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      },
+      {
+        "sigil": "ritual_readme",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-04-30T19:40:35Z",
+        "trace": "https://github.com/darbybailey/ritual-readme"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.551444Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      },
+      {
+        "sigil": "ritual_readme",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-04-30T19:40:35Z",
+        "trace": "https://github.com/darbybailey/ritual-readme"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.552945Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      },
+      {
+        "sigil": "ritual_readme",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-04-30T19:40:35Z",
+        "trace": "https://github.com/darbybailey/ritual-readme"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.554445Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      },
+      {
+        "sigil": "ritual_readme",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-04-30T19:40:35Z",
+        "trace": "https://github.com/darbybailey/ritual-readme"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.555950Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      },
+      {
+        "sigil": "ritual_readme",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-04-30T19:40:35Z",
+        "trace": "https://github.com/darbybailey/ritual-readme"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.557471Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      },
+      {
+        "sigil": "ritual_readme",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-04-30T19:40:35Z",
+        "trace": "https://github.com/darbybailey/ritual-readme"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.559091Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      },
+      {
+        "sigil": "ritual_readme",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-04-30T19:40:35Z",
+        "trace": "https://github.com/darbybailey/ritual-readme"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.560750Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      },
+      {
+        "sigil": "ritual_readme",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-04-30T19:40:35Z",
+        "trace": "https://github.com/darbybailey/ritual-readme"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.562463Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      },
+      {
+        "sigil": "ritual_readme",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-04-30T19:40:35Z",
+        "trace": "https://github.com/darbybailey/ritual-readme"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.564218Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      },
+      {
+        "sigil": "ritual_readme",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-04-30T19:40:35Z",
+        "trace": "https://github.com/darbybailey/ritual-readme"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.566130Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      },
+      {
+        "sigil": "ritual_readme",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-04-30T19:40:35Z",
+        "trace": "https://github.com/darbybailey/ritual-readme"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.568225Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      },
+      {
+        "sigil": "ritual_readme",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-04-30T19:40:35Z",
+        "trace": "https://github.com/darbybailey/ritual-readme"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.570343Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      },
+      {
+        "sigil": "ritual_readme",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-04-30T19:40:35Z",
+        "trace": "https://github.com/darbybailey/ritual-readme"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.572446Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      },
+      {
+        "sigil": "ritual_readme",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-04-30T19:40:35Z",
+        "trace": "https://github.com/darbybailey/ritual-readme"
+      }
+    ]
+  },
+  {
+    "run": "2025-05-01T04:46:31.574560Z",
+    "entries": [
+      {
+        "sigil": "btc_unlocker",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:09:52Z",
+        "trace": "https://github.com/darbybailey/btc-unlocker"
+      },
+      {
+        "sigil": "darby_foundry",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:24:25Z",
+        "trace": "https://github.com/darbybailey/darby_foundry"
+      },
+      {
+        "sigil": "finance_mirror",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:58Z",
+        "trace": "https://github.com/darbybailey/finance-mirror"
+      },
+      {
+        "sigil": "kanban_scribe",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T01:08:15Z",
+        "trace": "https://github.com/darbybailey/kanban-scribe"
+      },
+      {
+        "sigil": "let_her_cook",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-05-01T04:46:13Z",
+        "trace": "https://github.com/darbybailey/let-her-cook"
+      },
+      {
+        "sigil": "ritual_readme",
+        "form": "drav",
+        "pulse": "vaha",
+        "drift": "vaha",
+        "lastSeen": "2025-04-30T19:40:35Z",
+        "trace": "https://github.com/darbybailey/ritual-readme"
+      }
+    ]
   }
 ]
