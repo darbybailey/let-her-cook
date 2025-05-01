@@ -1,75 +1,56 @@
-### ✅ `let-her-cook/README.md`
+# 🍳 let-her-cook
 
-```markdown
-# 🍳 Let Her Cook
+**A symbolic observatory. A ritual tracker. A devnet in glyphs.**
 
-**A living ledger of creative pulse, project state, and symbolic development.**
+LetHerCook is a living log of encoded project activity across a distributed system.  
+It functions as a nightly scan of the builder’s public and private repositories, rendered in symbolic language.  
 
-This is a public experimental observatory of Darby's personal development ecosystem.  
-It operates autonomously, scanning all repositories nightly and encoding system activity into symbolic entries.
-
-The logs are visible. The meaning is not.
+No plaintext. No summaries. Just motion, drift, and signal.
 
 ---
 
 ## 🔁 What It Does
 
-Every 24 hours, a scheduled GitHub Action runs:
-- Fetches metadata from all of Darby’s repos
-- Encodes status, rhythm, and signals into `cook-log.json`
-- Uses a cryptographic symbolic mapping system
+Every 24 hours, LetHerCook runs a self-reflective ritual:
+- Scans all visible repositories
+- Encodes system state into glyphs
+- Logs that signal into `cook-log.json`
+
+Logs are structured but not decipherable without context.  
+Only the builder understands the pulse.
 
 ---
 
-## 🪐 Sample Log Entry
+## 🧪 On Symbolic Encoding
 
-```json
-{
-  "sigil": "kanban_scribe",
-  "pulse": "🫀",
-  "kind": "📦",
-  "lastSeen": "2025-04-30T21:04Z",
-  "ref": "https://github.com/darbybailey/kanban-scribe"
-}
-```
-
-- `sigil`: a symbolic identity token for the project  
-- `pulse`: encoded rhythm signal  
-- `kind`: visibility or intent classification  
-- `ref`: project link  
-- `lastSeen`: last detected change
+This repository uses a unique cipher language that are chosen for their semiotic resonance, not literal meaning.  
+They are part of a private mythos.
 
 ---
 
-## 🌀 About the Cipher
+## 🧠 Design Ethos
 
-This repository uses:
-- **Emojis** as soft cypher
-- **Time-based deltas** as energy markers
-- **Language-independent tokens** for internal alignment
+This is a **public ritual** with a **private decoding layer**.
 
-Only the builder can interpret the full pattern.  
-
----
-
-## 🔐 Why It's Public
-
-- To reflect system-wide growth without disclosing inner state  
-- To share development energy in symbolic form  
-- To preserve ritual privacy within a visible environment
+LetHerCook is designed to:
+- Reflect symbolic dev states  
+- Maintain operational secrecy  
+- Aesthetically share system health  
+- Act as a long-term personal memory structure
 
 ---
 
-## 📡 Future Plans
+## 🕯️ About the Log
 
-- Visualization overlays for log interpretation  
-- Optional project scoring dashboard  
-- Extension to symbolic KPIs across external systems
+Logs are committed daily to `cook-log.json`.  
+Each entry includes a new symbolic snapshot of all repos at the time of scan.
+
+You may view the changes. You may not interpret them.  
+Only time and the builder know the form.
 
 ---
 
-## License
+## 🌀 License
 
-🕯️ Ritual data. Not licensed for commercial replication.  
-Built in motion, published in rhythm.
-```
+🪞 Public glyphs. Private meaning.  
+No license granted for decoding, replication, or derivative ritual systems.
