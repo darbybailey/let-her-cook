@@ -61,6 +61,22 @@ for repo in fetch_repos():
         )
         entries.append(entry)
 
+    entries = []
+
+for repo in fetch_repos():
+    last_push = repo["pushed_at"]
+    dt = datetime.strptime(last_push, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+
+    if (datetime.now(timezone.utc) - dt).days < 1:
+        entry = build_glyph_entry(
+            name=repo["name"],
+            url=repo["html_url"],
+            last_push=last_push,
+            private=repo["private"],
+            experiment=False
+        )
+        entries.append(entry)
+
 
     append_log(entries)
     print(f"✅ Logged {len(entries)} repos.")
