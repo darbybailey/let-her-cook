@@ -48,15 +48,19 @@ def append_log(entries):
 def main():
     print("🔍 Scanning repos...")
     entries = []
-    for repo in fetch_repos():
+for repo in fetch_repos():
+    last_push = repo["pushed_at"]
+    dt = datetime.strptime(last_push, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+    if (datetime.now(timezone.utc) - dt).days < 1:
         entry = build_glyph_entry(
             name=repo["name"],
             url=repo["html_url"],
-            last_push=repo["pushed_at"],
+            last_push=last_push,
             private=repo["private"],
-            experiment=False  # set True later if needed
+            experiment=False
         )
         entries.append(entry)
+
 
     append_log(entries)
     print(f"✅ Logged {len(entries)} repos.")
