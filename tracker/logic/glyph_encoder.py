@@ -1,7 +1,6 @@
 """
-Enhanced Glyph Encoder Module
-This module contains functions to encode repository activity into symbolic glyphs
-with enriched metadata for visualization.
+Glyph Encoder Module
+This module contains functions to encode repository activity into symbolic glyphs.
 """
 
 import json
@@ -19,11 +18,9 @@ GLYPH_SYMBOLS = [
     "☗", "☘", "☙", "☚", "☛", "☜", "☝", "☞", "☟", "☠", "☡", "☢", "☣", "☤", "☥"
 ]
 
-# Define patterns for meta.pattern
-PATTERNS = ["alpha", "beta", "gamma", "delta", "epsilon", "zeta", "eta", "theta", "iota", "kappa"]
-
-# Define layouts for visual.layout
-LAYOUTS = ["constellation", "orbital", "lattice", "spiral", "radial", "linear", "cluster"]
+# Define patterns for visual styling
+PATTERNS = ["alpha", "beta", "gamma", "delta", "epsilon", "zeta"]
+LAYOUTS = ["constellation", "orbital", "spiral", "radial", "linear"]
 
 # Define color palettes - each tuple is (primary, secondary)
 COLOR_PALETTES = [
@@ -32,9 +29,7 @@ COLOR_PALETTES = [
     ("#FB5607", "#8AC926"),  # Orange/Green
     ("#FF006E", "#FFBE0B"),  # Pink/Yellow
     ("#3A86FF", "#8AC926"),  # Blue/Green
-    ("#8338EC", "#FB5607"),  # Purple/Orange
-    ("#06D6A0", "#EF476F"),  # Teal/Red
-    ("#118AB2", "#FFD166"),  # Blue/Gold
+    ("#8338EC", "#FB5607")   # Purple/Orange
 ]
 
 def get_deterministic_choice(seed, choices):
@@ -53,23 +48,23 @@ def get_deterministic_choice(seed, choices):
 
 def build_glyph_entry(repo_activity=None):
     """
-    Encode repository activity into a glyph entry with enhanced metadata.
+    Encode repository activity into a glyph entry.
     
     Args:
         repo_activity (dict, optional): Data about repository activity. 
                                        If None, will generate example data.
     
     Returns:
-        dict: A glyph entry with encoded activity and visualization metadata
+        dict: A glyph entry with encoded activity
     """
     # If no activity provided, create example data
     if repo_activity is None:
         repo_activity = {
             "repositories": ["let-her-cook"],
-            "commits": random.randint(0, 5),
-            "files_changed": random.randint(0, 10),
-            "lines_added": random.randint(0, 100),
-            "lines_removed": random.randint(0, 50)
+            "commits": random.randint(1, 5),
+            "files_changed": random.randint(1, 10),
+            "lines_added": random.randint(10, 100),
+            "lines_removed": random.randint(5, 50)
         }
     
     # Generate timestamp for the entry
@@ -85,12 +80,14 @@ def build_glyph_entry(repo_activity=None):
     # Add glyphs based on commit count
     commit_count = repo_activity.get("commits", 0)
     if commit_count > 0:
-        glyphs += random.choice(GLYPH_SYMBOLS) * min(commit_count, 5)
+        for _ in range(min(commit_count, 5)):
+            glyphs += random.choice(GLYPH_SYMBOLS)
     
     # Add glyphs based on changes
     files_changed = repo_activity.get("files_changed", 0)
     if files_changed > 0:
-        glyphs += random.choice(GLYPH_SYMBOLS) * min(files_changed // 2, 3)
+        for _ in range(min(files_changed // 2, 3)):
+            glyphs += random.choice(GLYPH_SYMBOLS)
     
     # Add randomness if too few glyphs
     if len(glyphs) < 5:
@@ -116,14 +113,7 @@ def build_glyph_entry(repo_activity=None):
     layout = get_deterministic_choice(seed + "layout", LAYOUTS)
     colors = get_deterministic_choice(seed + "colors", COLOR_PALETTES)
     
-    # Generate coordinates (seemingly random but deterministic)
-    coordinates = [
-        int(hashlib.md5((seed + "x").encode()).hexdigest(), 16) % 50 + 1,
-        int(hashlib.md5((seed + "y").encode()).hexdigest(), 16) % 30 + 1,
-        int(hashlib.md5((seed + "z").encode()).hexdigest(), 16) % 50 + 1
-    ]
-    
-    # Create the enhanced glyph entry
+    # Create the glyph entry
     glyph_entry = {
         "timestamp": timestamp,
         "glyphs": glyphs,
@@ -132,8 +122,7 @@ def build_glyph_entry(repo_activity=None):
             "cycle": cycle,
             "intensity": round(intensity, 2),
             "resonance": resonance,
-            "pattern": pattern,
-            "coordinates": coordinates
+            "pattern": pattern
         },
         "visual": {
             "primary": colors[0],
