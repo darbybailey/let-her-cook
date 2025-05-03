@@ -1,7 +1,36 @@
 [
   {
-    "timestamp": "2025-05-03T03:03:15.182109",
-    "glyphs": "\u2619\u2604\u2604\u2604\u2621\u2621",
-    "pulse": true
+    "timestamp": "2025-05-01T00:00:00.000Z",
+    "glyphs": "◆◈■▣▤▥",
+    "pulse": true,
+    "meta": {
+      "cycle": 1,
+      "intensity": 0.7,
+      "resonance": "high",
+      "pattern": "alpha",
+      "coordinates": [23, 17, 42]
+    },
+    "visual": {
+      "primary": "#3A86FF",
+      "secondary": "#FF006E",
+      "layout": "constellation"
+    }
+  },
+  {
+    "timestamp": "2025-05-02T00:00:00.000Z",
+    "glyphs": "○●◐◑◒◓",
+    "pulse": true,
+    "meta": {
+      "cycle": 1,
+      "intensity": 0.8,
+      "resonance": "medium",
+      "pattern": "beta",
+      "coordinates": [19, 21, 38]
+    },
+    "visual": {
+      "primary": "#8338EC",
+      "secondary": "#FFBE0B",
+      "layout": "orbital"
+    }
   }
 ]
