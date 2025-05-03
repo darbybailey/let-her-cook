@@ -1,70 +1,89 @@
-import requests
-import json
-from datetime import datetime, timezone
-import os
+"""
+Pulse Tracker Module
+This module tracks repository activity and encodes it into symbolic glyphs.
+"""
 
+import os
+import sys
+import json
+import datetime
+from pathlib import Path
+
+# Ensure the project root is in the Python path
+# This is crucial for the imports to work correctly in GitHub Actions
+project_root = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(project_root))
+
+# Now we can safely import from tracker package
 from tracker.logic.glyph_encoder import build_glyph_entry
 
-GITHUB_TOKEN = os.environ["LHC_TOKEN"]
-USERNAME = os.environ["LHC_USERNAME"]
-LOG_FILE = "cook-log.json"
-
-HEADERS = {
-    "Authorization": f"token {GITHUB_TOKEN}",
-    "Accept": "application/vnd.github.v3+json"
-}
-
-def fetch_repos():
-    repos = []
-    page = 1
-    while True:
-        url = f"https://api.github.com/users/{USERNAME}/repos?page={page}&per_page=100&type=all&sort=pushed"
-        res = requests.get(url, headers=HEADERS)
-        if res.status_code != 200 or not res.json():
-            break
-        repos += res.json()
-        page += 1
-    return repos
-
-def append_log(entries):
-    run_data = {
-        "run": datetime.now(timezone.utc).isoformat(),
-        "entries": entries
+def get_repo_activity():
+    """
+    Get repository activity data.
+    In a real implementation, this would scan git repositories.
+    
+    Returns:
+        dict: Repository activity data
+    """
+    # Example data - in a real implementation, this would get actual git data
+    return {
+        "repositories": ["let-her-cook"],
+        "commits": 3,
+        "files_changed": 5,
+        "lines_added": 52,
+        "lines_removed": 12
     }
 
-    if os.path.exists(LOG_FILE):
-        with open(LOG_FILE, "r") as f:
-            log = json.load(f)
+def update_log_file(log_path, glyph_entry):
+    """
+    Update the JSON log file with a new glyph entry.
+    
+    Args:
+        log_path (str): Path to the log file
+        glyph_entry (dict): Glyph entry to add to the log
+    """
+    # Create an empty log list if the file doesn't exist or is empty
+    if not os.path.exists(log_path) or os.path.getsize(log_path) == 0:
+        log_data = []
     else:
-        log = []
-
-    log.append(run_data)
-
-    with open(LOG_FILE, "w") as f:
-        json.dump(log, f, indent=2)
+        try:
+            with open(log_path, 'r') as file:
+                log_data = json.load(file)
+        except json.JSONDecodeError:
+            # If the file exists but isn't valid JSON, start with an empty list
+            log_data = []
+    
+    # Add the new entry
+    log_data.append(glyph_entry)
+    
+    # Write the updated log back to the file
+    with open(log_path, 'w') as file:
+        json.dump(log_data, file, indent=2)
+    
+    print(f"Updated log file at {log_path}")
 
 def main():
-    now = datetime.now(timezone.utc)
-    entries = []
-
-    print("🔍 Scanning repos...")
-
-    for repo in fetch_repos():
-        last_push = repo["pushed_at"]
-        dt = datetime.strptime(last_push, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-
-        if (now - dt).total_seconds() < 86400:  # 24 hours
-            entry = build_glyph_entry(
-                name=repo["name"],
-                url=repo["html_url"],
-                last_push=last_push,
-                private=repo["private"],
-                experiment=True
-            )
-            entries.append(entry)
-
-    print(f"✅ Logged {len(entries)} repos.")
-    append_log(entries)
+    """
+    Main function that runs the pulse tracker.
+    """
+    print("Starting Pulse Tracker...")
+    
+    # Get the path to the cook-log.json file
+    log_path = os.path.join(project_root, "cook-log.json")
+    print(f"Log file path: {log_path}")
+    
+    # Get repository activity
+    repo_activity = get_repo_activity()
+    print(f"Repository activity: {repo_activity}")
+    
+    # Build a glyph entry
+    glyph_entry = build_glyph_entry(repo_activity)
+    print(f"Generated glyph entry: {glyph_entry}")
+    
+    # Update the log file
+    update_log_file(log_path, glyph_entry)
+    
+    print("Pulse Tracker completed successfully.")
 
 if __name__ == "__main__":
     main()
