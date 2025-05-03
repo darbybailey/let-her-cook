@@ -30,5 +30,21 @@
       "secondary": "#FB5607",
       "layout": "linear"
     }
+  },
+  {
+    "timestamp": "2025-05-03T20:59:32.665677",
+    "glyphs": "\u25a7\u25eb\u2625\u25e7\u2621",
+    "pulse": true,
+    "meta": {
+      "cycle": 18,
+      "intensity": 0.59,
+      "resonance": "low",
+      "pattern": "beta"
+    },
+    "visual": {
+      "primary": "#8338EC",
+      "secondary": "#FFBE0B",
+      "layout": "orbital"
+    }
   }
 ]
