@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "timestamp": "2025-05-03T03:14:23.736444",
+    "glyphs": "\u2620\u2613\u25d0\u2601\u260e",
+    "pulse": false,
+    "meta": {
+      "cycle": 18,
+      "intensity": 0.65,
+      "resonance": "high",
+      "pattern": "epsilon"
+    },
+    "visual": {
+      "primary": "#8338EC",
+      "secondary": "#FFBE0B",
+      "layout": "spiral"
+    }
+  }
+]
