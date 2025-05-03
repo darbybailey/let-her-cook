@@ -32,13 +32,18 @@ jobs:
       
       - name: Run pulse tracker
         run: |
-          # Use python -m to run the module properly
+          # Run the pulse tracker to update the JSON log
           python -m tracker.logic.pulse_tracker
       
-      - name: Commit pulse log update
+      - name: Update README with latest glyphs
+        run: |
+          # Update the README with the latest glyphs
+          python -m tracker.logic.readme_updater
+      
+      - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add cook-log.json
-          git commit -m "Update pulse log [automated]" || echo "No changes to commit"
+          git add cook-log.json README.md
+          git commit -m "Update pulse log and README [automated]" || echo "No changes to commit"
           git push
