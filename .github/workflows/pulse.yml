@@ -8,12 +8,16 @@ on:
 jobs:
   pulse:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write    # Needed for pushing to the repository
     steps:
       - name: Set up job
         run: echo "Starting pulse tracker job"
       
-      - name: Checkout repo
+      - name: Checkout repo with full history
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetch all history for more accurate stats
       
       - name: Set up Python
         uses: actions/setup-python@v4
