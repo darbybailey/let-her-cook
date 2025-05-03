@@ -14,5 +14,21 @@
       "secondary": "#FFBE0B",
       "layout": "spiral"
     }
+  },
+  {
+    "timestamp": "2025-05-03T03:18:11.641552",
+    "glyphs": "\u25a3\u25cd\u25e3\u25e8\u260d",
+    "pulse": true,
+    "meta": {
+      "cycle": 18,
+      "intensity": 0.44,
+      "resonance": "medium",
+      "pattern": "delta"
+    },
+    "visual": {
+      "primary": "#8338EC",
+      "secondary": "#FB5607",
+      "layout": "linear"
+    }
   }
 ]
