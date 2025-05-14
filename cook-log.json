@@ -206,5 +206,21 @@
       "secondary": "#8AC926",
       "layout": "radial"
     }
+  },
+  {
+    "timestamp": "2025-05-14T01:38:01.682348",
+    "glyphs": "\u25a8\u25e1\u25c8\u25df\u2622\u25d1\u25e4\u25d1",
+    "pulse": true,
+    "meta": {
+      "cycle": 20,
+      "intensity": 0.4,
+      "resonance": "low",
+      "pattern": "epsilon"
+    },
+    "visual": {
+      "primary": "#FF006E",
+      "secondary": "#FFBE0B",
+      "layout": "linear"
+    }
   }
 ]
