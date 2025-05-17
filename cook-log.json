@@ -254,5 +254,21 @@
       "secondary": "#8AC926",
       "layout": "orbital"
     }
+  },
+  {
+    "timestamp": "2025-05-17T01:36:16.023860",
+    "glyphs": "\u25cc\u2615\u25a1\u25a0\u2617\u25d0\u25ee\u25dd",
+    "pulse": true,
+    "meta": {
+      "cycle": 20,
+      "intensity": 0.55,
+      "resonance": "dissonant",
+      "pattern": "zeta"
+    },
+    "visual": {
+      "primary": "#3A86FF",
+      "secondary": "#FF006E",
+      "layout": "orbital"
+    }
   }
 ]
