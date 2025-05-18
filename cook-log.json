@@ -270,5 +270,21 @@
       "secondary": "#FF006E",
       "layout": "orbital"
     }
+  },
+  {
+    "timestamp": "2025-05-18T01:43:53.912570",
+    "glyphs": "\u25a3\u25ee\u261c\u25da\u2624",
+    "pulse": true,
+    "meta": {
+      "cycle": 20,
+      "intensity": 0.58,
+      "resonance": "medium",
+      "pattern": "delta"
+    },
+    "visual": {
+      "primary": "#8338EC",
+      "secondary": "#FB5607",
+      "layout": "linear"
+    }
   }
 ]
