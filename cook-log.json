@@ -542,5 +542,21 @@
       "secondary": "#FFBE0B",
       "layout": "constellation"
     }
+  },
+  {
+    "timestamp": "2025-06-04T01:41:20.778846",
+    "glyphs": "\u25d4\u25d3\u25dc\u25dd\u25ef",
+    "pulse": true,
+    "meta": {
+      "cycle": 23,
+      "intensity": 0.68,
+      "resonance": "dissonant",
+      "pattern": "alpha"
+    },
+    "visual": {
+      "primary": "#8338EC",
+      "secondary": "#FFBE0B",
+      "layout": "linear"
+    }
   }
 ]
