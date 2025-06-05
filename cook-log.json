@@ -558,5 +558,21 @@
       "secondary": "#FFBE0B",
       "layout": "linear"
     }
+  },
+  {
+    "timestamp": "2025-06-05T01:40:10.826158",
+    "glyphs": "\u25a9\u25a8\u25a5\u25e4\u25d3\u25a0\u2604\u25ee\u25d1",
+    "pulse": true,
+    "meta": {
+      "cycle": 23,
+      "intensity": 0.5,
+      "resonance": "low",
+      "pattern": "delta"
+    },
+    "visual": {
+      "primary": "#3A86FF",
+      "secondary": "#8AC926",
+      "layout": "radial"
+    }
   }
 ]
