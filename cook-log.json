@@ -750,5 +750,21 @@
       "secondary": "#8AC926",
       "layout": "constellation"
     }
+  },
+  {
+    "timestamp": "2025-06-17T01:42:12.143386",
+    "glyphs": "\u261f\u2623\u2603\u25d7\u25e9\u25eb",
+    "pulse": true,
+    "meta": {
+      "cycle": 24,
+      "intensity": 0.43,
+      "resonance": "dissonant",
+      "pattern": "delta"
+    },
+    "visual": {
+      "primary": "#3A86FF",
+      "secondary": "#8AC926",
+      "layout": "radial"
+    }
   }
 ]
