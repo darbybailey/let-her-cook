@@ -814,5 +814,21 @@
       "secondary": "#8AC926",
       "layout": "radial"
     }
+  },
+  {
+    "timestamp": "2025-06-21T01:39:32.582460",
+    "glyphs": "\u25a8\u25db\u25d3\u25a8\u25e0\u2603\u25cb",
+    "pulse": true,
+    "meta": {
+      "cycle": 25,
+      "intensity": 0.47,
+      "resonance": "dissonant",
+      "pattern": "gamma"
+    },
+    "visual": {
+      "primary": "#8338EC",
+      "secondary": "#FFBE0B",
+      "layout": "radial"
+    }
   }
 ]
