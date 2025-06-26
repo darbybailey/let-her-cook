@@ -894,5 +894,21 @@
       "secondary": "#8AC926",
       "layout": "radial"
     }
+  },
+  {
+    "timestamp": "2025-06-26T01:41:50.095520",
+    "glyphs": "\u25a9\u25ce\u25dd\u25d9\u261a\u25e7",
+    "pulse": true,
+    "meta": {
+      "cycle": 26,
+      "intensity": 0.67,
+      "resonance": "high",
+      "pattern": "zeta"
+    },
+    "visual": {
+      "primary": "#8338EC",
+      "secondary": "#FB5607",
+      "layout": "spiral"
+    }
   }
 ]
