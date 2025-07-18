@@ -1246,5 +1246,21 @@
       "secondary": "#8AC926",
       "layout": "linear"
     }
+  },
+  {
+    "timestamp": "2025-07-18T01:49:33.979556",
+    "glyphs": "\u261e\u25e6\u25ed\u25ec\u25aa",
+    "pulse": true,
+    "meta": {
+      "cycle": 29,
+      "intensity": 0.54,
+      "resonance": "resonant",
+      "pattern": "beta"
+    },
+    "visual": {
+      "primary": "#8338EC",
+      "secondary": "#FB5607",
+      "layout": "linear"
+    }
   }
 ]
