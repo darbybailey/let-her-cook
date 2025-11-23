@@ -3294,5 +3294,21 @@
       "secondary": "#FF006E",
       "layout": "linear"
     }
+  },
+  {
+    "timestamp": "2025-11-23T01:50:28.889670",
+    "glyphs": "\u25e2\u25cb\u25e9\u2601\u25aa",
+    "pulse": true,
+    "meta": {
+      "cycle": 47,
+      "intensity": 0.48,
+      "resonance": "resonant",
+      "pattern": "delta"
+    },
+    "visual": {
+      "primary": "#8338EC",
+      "secondary": "#FFBE0B",
+      "layout": "radial"
+    }
   }
 ]
