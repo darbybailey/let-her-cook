@@ -3806,5 +3806,21 @@
       "secondary": "#8AC926",
       "layout": "constellation"
     }
+  },
+  {
+    "timestamp": "2025-12-25T01:45:37.321815",
+    "glyphs": "\u2605\u2620\u25c8\u25e1\u2622\u25e8",
+    "pulse": true,
+    "meta": {
+      "cycle": 51,
+      "intensity": 0.54,
+      "resonance": "resonant",
+      "pattern": "gamma"
+    },
+    "visual": {
+      "primary": "#8338EC",
+      "secondary": "#FB5607",
+      "layout": "linear"
+    }
   }
 ]
