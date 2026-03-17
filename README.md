@@ -33,15 +33,15 @@ Only the builder understands the pulse.
 Below is the most recent pulse. The visualization displays the encoded activity as symbolic glyphs representing commits, changes, and development rhythm.
 
 ```
-◭◓☂▫☄◭◓☂▫☄◭◓☂▫☄
-◭◓☂▫☄◭◓☂▫☄◭◓☂▫☄
-◭◓☂▫☄
+☖◔◮▦◠☖◔◮▦◠☖◔◮▦◠
+☖◔◮▦◠☖◔◮▦◠☖◔◮▦◠
+☖◔◮▦◠
 ```
 
 #### Last Pulse:
-- **Timestamp**: [2026-03-16 02:31:18 UTC]
+- **Timestamp**: [2026-03-17 02:10:07 UTC]
 - **Resonance**: [medium]
-- **Cycle**: [11]
+- **Cycle**: [12]
 - **Pattern**: [gamma]
 
 ## 🔮 Reading the Glyphs
