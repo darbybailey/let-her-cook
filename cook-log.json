@@ -6606,5 +6606,21 @@
       "secondary": "#FFBE0B",
       "layout": "spiral"
     }
+  },
+  {
+    "timestamp": "2026-06-18T04:02:07.793167",
+    "glyphs": "\u25a1\u2620\u25df\u2624\u25de",
+    "pulse": false,
+    "meta": {
+      "cycle": 25,
+      "intensity": 0.5,
+      "resonance": "dissonant",
+      "pattern": "beta"
+    },
+    "visual": {
+      "primary": "#3A86FF",
+      "secondary": "#FF006E",
+      "layout": "constellation"
+    }
   }
 ]
